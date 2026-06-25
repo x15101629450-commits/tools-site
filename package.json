@@ -1,0 +1,21 @@
+{
+  "name": "devtools-site",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Free online developer tools (pure front-end, static, SEO-friendly).",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:pages": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.8"
+  }
+}

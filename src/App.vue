@@ -1,0 +1,14 @@
+<script setup>
+import SiteHeader from './components/SiteHeader.vue'
+import SiteFooter from './components/SiteFooter.vue'
+</script>
+
+<template>
+  <div class="app">
+    <SiteHeader />
+    <main class="container">
+      <RouterView />
+    </main>
+    <SiteFooter />
+  </div>
+</template>
